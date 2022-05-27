@@ -1,0 +1,32 @@
+#pricing-card{
+    background-color: #ff6309;
+}
+
+#pricing-card:hover{
+    border: 20px;
+    border-color: #545e68;
+}
+
+#pricing-card-bottom{
+    background-color: #ff6309;
+    margin-top: 20px;
+}
+
+#pricing-card-bottom h5{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#pricing-card-img{
+    margin: auto;
+    width: 30%;
+    padding-top: 100px;
+    margin-top: -50px;
+}
+
+#card-price{
+    width: 90%;
+    padding:10px;
+    margin: auto;
+    border-radius: 4px;
+}

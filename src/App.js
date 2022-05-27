@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import AmazingDance from './components/AmazingDanceComponents/AmazingDance';
+import BestDance from './components/AmazingDanceComponents/BestDance';
+import OurStatistics from './components/ourStatistics/OurStatistics';
+import HerberSimon from './components/herberSimon/HerberSimon';
+import Pricing from './components/pricingComponents/Pricing';
+import Subscribe from './components/subscribe/Subscribe';
+import Footer from './components/footer/Footer';
+import DanceTour from './components/DanceTour';
+import Navbar from './components/Navbar';
+import Banner from './components/Banner';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Banner />
+      <DanceTour />
+      <Pricing />
+      <AmazingDance />
+      <BestDance />
+      <OurStatistics />
+      <HerberSimon />
+      <Subscribe />
+      <Footer />
+    </>
   );
 }
 

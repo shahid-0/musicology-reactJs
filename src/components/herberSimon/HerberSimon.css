@@ -1,0 +1,22 @@
+#herber-simson{
+    background-image: url('../../images/herbert.png');
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+#herber-simson__text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 500px){
+    #herber-simson{
+        height: 560px;
+    }
+
+    #herber-simson__text p{
+        font-size: 20px;
+    }
+}

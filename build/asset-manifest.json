@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e7ab7f4.css",
+    "main.js": "/static/js/main.75ae4165.js",
+    "static/media/herbert.png": "/static/media/herbert.f60d8f37e5d9f56bfd88.png",
+    "static/media/banner.png": "/static/media/banner.74473602bbb746fb197d.png",
+    "static/media/amazing-dance2.png": "/static/media/amazing-dance2.778894042275caca1d8a.png",
+    "static/media/amazing-dance.png": "/static/media/amazing-dance.675429225999e15f2ac9.png",
+    "static/media/dance_tour1.png": "/static/media/dance_tour1.a758805ae945c038056b.png",
+    "static/media/dance_tour3.png": "/static/media/dance_tour3.b32ddd29b7f85bf6cbc1.png",
+    "static/media/dance_tour2.png": "/static/media/dance_tour2.d37daa1e5b16f6ff89e9.png",
+    "static/media/subscribe-background.png": "/static/media/subscribe-background.4cf5654e4e932154a35e.png",
+    "static/media/amazingDanceBack.png": "/static/media/amazingDanceBack.91b1ed14b28e4b7482b2.png",
+    "static/media/pricing-background.png": "/static/media/pricing-background.bc5d2132713a4f3aad6e.png",
+    "static/media/dancetourBackground.png": "/static/media/dancetourBackground.f83c51bf99f994b20358.png",
+    "static/media/amazingDanceBack2.png": "/static/media/amazingDanceBack2.237881caf4e9213e4291.png",
+    "index.html": "/index.html",
+    "main.2e7ab7f4.css.map": "/static/css/main.2e7ab7f4.css.map",
+    "main.75ae4165.js.map": "/static/js/main.75ae4165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e7ab7f4.css",
+    "static/js/main.75ae4165.js"
+  ]
+}

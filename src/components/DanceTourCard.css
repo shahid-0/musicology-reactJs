@@ -1,0 +1,29 @@
+#dancetour-card{
+    border-radius: 0;
+    border-color:#ff6309;
+}
+
+#dancetour-card:hover{
+    border: 10px;
+    border-color: #545e68;
+}
+
+#card-img{
+    border-radius: 0;
+}
+
+
+
+@media only screen and (max-width: 880px){
+    p{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    h5{
+        font-size: 17px;
+        font-weight: lighter;
+    }
+}

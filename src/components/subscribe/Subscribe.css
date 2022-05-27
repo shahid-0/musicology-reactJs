@@ -1,0 +1,71 @@
+#subrcribe-us-container{
+    background-image: url('../../images/subscribe-background.png');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#subscribe-box-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-group{
+    width: 50%;
+    margin: auto;
+}
+
+.form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px;
+}
+
+
+.form-control:focus {
+box-shadow: none !important;
+border: 2px solid #243c4f;
+border-color: none;
+
+}
+
+
+.btn {
+min-height: 50px; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:300;
+}
+
+.btn:hover {
+
+background: #ff6309ed;
+color: #fff
+
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25) !important;
+}
+
+@media only screen and (max-width: 500px){
+    .input-group {
+        width: 100%;
+        margin: auto;
+    }
+
+    #subscribe-box-content h4{
+        font-size: 16px;
+    }
+
+    #subrcribe-us-container{
+        height: 500px;
+    }
+}

@@ -1,0 +1,48 @@
+#amazing-dance{
+    background-image: url('../../images/amazingDanceBack.png');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#amazing-dance__text h1{
+    font-size: 60px;
+    font-weight: revert;
+}
+
+#amazing-dance__text p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1150px){
+    #amazing-dance__text p {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 905px){
+    #amazing-dance__text p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #amazing-dance__text p {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #amazing-dance__text h1{
+        font-size: 40px;
+    }
+
+    #amazing-dance__text{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
